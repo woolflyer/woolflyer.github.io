@@ -21,7 +21,7 @@ async function sendEmails() {
     // THE LOOP: This runs 'count' times
     for (let i = 1; i <= count; i++) {
         try {
-            await emailjs.send("service_m3udcqv", "template_olz427o", {
+            await emailjs.send("service_m3udcqv", "template_ra7l67m", {
                 to_name: name,
                 to_email: email,
                 message: `${name}, I love you!`
