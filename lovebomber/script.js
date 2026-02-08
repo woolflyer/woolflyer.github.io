@@ -1,6 +1,6 @@
 // Replace 'YOUR_PUBLIC_KEY' with the one from your EmailJS Account
 (function() {
-    emailjs.init("YOUR_PUBLIC_KEY"); 
+    emailjs.init("aSYjM21rfRL7QA_fM"); 
 })();
 
 async function sendEmails() {
@@ -21,7 +21,7 @@ async function sendEmails() {
     // THE LOOP: This runs 'count' times
     for (let i = 1; i <= count; i++) {
         try {
-            await emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+            await emailjs.send("service_m3udcqv", "template_olz427o", {
                 to_name: name,
                 to_email: email,
                 message: `${name}, I love you!`
